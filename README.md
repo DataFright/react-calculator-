@@ -1,16 +1,64 @@
-# React + Vite
+# React Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple calculator built with **React**, **Vite**, and **Windmill React UI**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Run it on your own computer
 
-## React Compiler
+Yes — you pull it from GitHub and then launch it locally. Here's exactly how:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (v18 or newer) installed on your computer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Steps
+
+```bash
+# 1. Clone the repo (first time only)
+git clone https://github.com/DataFright/react-calculator-.git
+cd react-calculator-
+
+# 2. Install dependencies (first time only, or after pulling new changes)
+npm install
+
+# 3. Start the local dev server
+npm run dev
+```
+
+Then open your browser and go to **http://localhost:5173**
+
+That's it! The calculator will be running live on your machine.
+
+---
+
+### If you've already cloned it before
+
+Just pull the latest changes and re-run:
+
+```bash
+git pull
+npm install   # only needed if package.json changed
+npm run dev
+```
+
+---
+
+## Available scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start local dev server at http://localhost:5173 |
+| `npm run build` | Build for production (outputs to `dist/`) |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
+
+---
+
+## Tech stack
+
+- [React 19](https://react.dev/)
+- [Vite](https://vite.dev/)
+- [Windmill React UI](https://windmillui.com/react-ui)
+- [Tailwind CSS](https://tailwindcss.com/)
+
